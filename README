@@ -1,0 +1,6 @@
+To run the code, execute the following commands - 
+//run the commands in the specified order only 
+lex lexl.l
+yacc -d yacc.y
+gcc lex.yy.c y.tab.c
+./a.out<input1.c

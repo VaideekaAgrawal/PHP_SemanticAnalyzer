@@ -3,4 +3,4 @@ To run the code, execute the following commands -
 lex lexl.l
 yacc -d yacc.y
 gcc lex.yy.c y.tab.c
-./a.out<input1.c
+./a.out<input1.c>

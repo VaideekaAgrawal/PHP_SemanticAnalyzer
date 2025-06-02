@@ -39,7 +39,7 @@ This project implements a semantic analyzer for PHP using Lex and Yacc. It parse
 
 2. The program will parse the input, perform semantic analysis, and output three-address code generation messages or error reports.
 
-## Project Structure
+## Project Structure (Key Files)
 - **lex.l**: Lexer specification for tokenizing PHP syntax.
 - **yacc.y**: Parser specification for syntax and semantic analysis.
 - **symbolTable.h**: Header file for the dynamic symbol table implementation.

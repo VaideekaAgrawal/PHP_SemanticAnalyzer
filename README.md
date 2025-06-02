@@ -27,23 +27,17 @@ This project implements a semantic analyzer for PHP using Lex and Yacc. It parse
    ```
 3. Compile the code:
    ```bash
-   gcc -o php_analyzer lex.yy.c y.tab.c -ll -ly
+   gcc lex.yy.c y.tab.c
    ```
    *Note*: You may need to implement `symbolTable.c` or link additional files if required.
 
 ## Usage
 1. Run the analyzer:
    ```bash
-   ./php_analyzer
+   ./a.out<input1.c>
    ```
-2. Input PHP code via standard input (or modify the program to read from a file). Example input:
-   ```php
-   <?php
-   $x = 5;
-   echo $x;
-   ?>
-   ```
-3. The program will parse the input, perform semantic analysis, and output three-address code generation messages or error reports.
+
+2. The program will parse the input, perform semantic analysis, and output three-address code generation messages or error reports.
 
 ## Project Structure
 - **lex.l**: Lexer specification for tokenizing PHP syntax.

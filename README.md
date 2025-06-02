@@ -47,9 +47,3 @@ This project implements a semantic analyzer for PHP using Lex and Yacc. It parse
 ## Contributing
 Contributions are welcome! Please fork the repository, create a new branch, and submit a pull request with your changes.
 
-## License
-This project is licensed under under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Author
-- [Your Name](https://github.com/your-username)  
-Feel free to reach out for questions or collaboration!
